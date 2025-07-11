@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+.item{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.about .us{
+    text-align: center;
+    padding: 290px 30px;
+    text-transform: uppercase;
+    background:url(/image/De\ perto\ a\ deliciosa\ comida\ asiática\ _\ imagem\ gerada\ com\ IA.jpg);
+    background-size: cover;
+    font-size: 30px;
+    color: whitesmoke;
+    border-bottom-right-radius: 250px;
+    border-top-left-radius: 250px;
+}
+.class .content{
+    display: flex;
+    padding: 59px 49px;
+    gap: 20px;
+    text-align: center;
+    background-color: rgb(1, 248, 34);
+    margin-top: 10px;
+    color: black;
+}
+.class .content h2{
+    font-size: 32px;
+    padding: 15px 0px;
+}
+.class .content h4{
+    font-size: 30px;
+    padding: 20px 0px;
+    text-decoration: line-through;
+}
+.white{
+    text-align: center;
+    padding: 100px 0px;
+    background-color: red;
+    margin: -35px 280px;
+    border-radius: 30px;
+}
+.logo .pic{
+    display: flex;
+    margin: 45px 15px;
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}

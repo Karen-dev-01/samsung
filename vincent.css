@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: aqua;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px;
+}
+.item{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.item :hover{
+    color: rgba(34, 255, 5, 0.911);
+}
+.stop{
+    padding: 300px 25px;
+    background: url(image/Blue\ Creative\ Delicious\ Chicken\ Banner.png);
+    background-size: cover;
+    color: white;
+    border-bottom-left-radius: 300px;
+}
+.end h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    padding: 9px 0px;
+    text-shadow: yellow 3px 5px 7px;
+}
+.end h3{
+    font-size: 25px;
+    padding: 10px;
+}
+.logo .shift{
+    display: flex;
+    text-align: center;
+    margin: 18px;
+    gap: 20px;
+    
+}
+.shift .meat{
+    background-color: black;
+    color: white;
+    padding: 50px;
+     box-shadow: blue 6px 4px 7px;
+     border-bottom-left-radius: 200px;
+     border-top-right-radius: 200px;
+} 
+.shift .chicken{
+    background-color: black;
+    color: white;
+    padding: 50px;
+     box-shadow: blue 6px 4px 7px;
+     border-bottom-left-radius: 200px;
+     border-top-right-radius: 200px;
+}
+.shift .snacks{
+    background-color: black;
+    color: white;
+    padding: 50px;
+     box-shadow: blue 6px 4px 7px;
+     border-bottom-left-radius: 200px;
+     border-top-right-radius: 200px;
+} 
+.logo .shift h2{
+    text-transform: uppercase;
+    padding: 15px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo .shift p{
+    font-family: sans-serif;
+} 
+.home .images{
+    display: flex;
+    margin-left: 90px;
+    opacity: 0.7;
+}
+img :hover{
+    opacity: 0.2;
+}
+.media .social{
+    display: flex;
+    gap: 200px;
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+.social h2{
+    font-size: 32px;
+}
+.form .now{
+    display: flex;
+    padding: 3% 20%;
+    gap: 30px;
+    outline-width: 3px;
+    outline-color: gold;
+}
+.form .now h2{
+    padding: 25px 0px;
+}
+form{
+    font-size: 20px;
+}
+input{
+    border-radius: 10px;
+    padding: 5px 70px;
+    font-size: 20px;
+    border-color: rgb(255, 0, 0);
+    border-style: dashed;
+    background-color: black;
+    
+}
+.now .holder label{
+    font-size: 25px;
+    padding: 40px 0px;
+}
+.now .holder .submit{
+    font-size: 20px;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px;
+}
